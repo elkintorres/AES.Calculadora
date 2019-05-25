@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aes.calculadora:
+    image: aescalculadora
+    build:
+      context: .
+      dockerfile: AES.Calculadora/Dockerfile

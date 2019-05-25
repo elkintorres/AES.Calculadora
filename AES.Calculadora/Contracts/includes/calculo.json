@@ -1,0 +1,21 @@
+{
+    "$id": "http://www.javeriana.edu.co/aes/modval/workshops",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "calculo",
+    "type": "object",
+    "properties": {
+        "num1": {
+            "type": "number",
+            "description": "representa el valor del primer numero"
+        },
+        "num2": {
+            "type": "number",
+            "description": "representa el valor del segundo numero"
+        },
+        "result":{
+            "type": "number",
+            "description": "representa el resultado de la iperacion realizada entre num1 y mun2"
+        }
+    },
+    "required": ["num1", "num2"]
+}
